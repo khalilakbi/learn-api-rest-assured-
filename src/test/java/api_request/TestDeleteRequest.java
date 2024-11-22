@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 public class TestDeleteRequest {
    Response response;
 
+
     @BeforeMethod
     public void testDeleteUser(){
         response = RestAssured.given().baseUri("https://reqres.in/").
